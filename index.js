@@ -25,6 +25,8 @@ function BoardMember(name, homeState, training){
     return "Hi, my name is ${this.name}, I am from ${this.homeState}, and I was trained in ${this.training}."
   }
 
+new BoardMember().veto()
+
 let polishedBoardMember = new BoardMember("Mr.Polished","New York", "Law" )
 
 
