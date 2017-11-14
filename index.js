@@ -16,6 +16,12 @@ class BoardMember{
       console.log(`You will see great things from Scuber.`)
     }
   }
+
+let polishedBoardMember = new BoardMember("Mr.Polished","New York", "Law" )
+
+
+
+  
 /*
   veto(){`No, I must disagree`}
   approve(){`You can do that!`}
