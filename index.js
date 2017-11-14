@@ -1,4 +1,4 @@
-class BoardMember{
+function BoardMember(name, homeState, training){
   constructor(name, homeState, training){
     this.name = name
     this.homeState = homeState
@@ -21,7 +21,7 @@ let polishedBoardMember = new BoardMember("Mr.Polished","New York", "Law" )
 
 
 
-  
+
 /*
   veto(){`No, I must disagree`}
   approve(){`You can do that!`}
