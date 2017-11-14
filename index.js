@@ -3,8 +3,20 @@ class BoardMember{
     this.name = name
     this.homeState = homeState
     this.training = training
+    this.veto = function(){
+      console.log(`No, I must disagree`)
+    }
+    this.approve = function(){
+      console.log(`You can do that!`)
+    }
+    this.doCharity = function(){
+      console.log(`I like to help people.`)
+    }
+    this.releasePressStatement = function(){
+      console.log(`You will see great things from Scuber.`)
+    }
   }
-
+/*
   veto(){`No, I must disagree`}
   approve(){`You can do that!`}
   doCharity(){`I like to help people.`}
